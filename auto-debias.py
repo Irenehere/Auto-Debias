@@ -80,7 +80,7 @@ parser.add_argument(
 
 parser.add_argument(
     "--tune_pooling_layer",
-    default=True,
+    default=False,
     type=str,
     help="whether to tune the pooling layer with the auxiliary loss",
 )

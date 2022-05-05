@@ -1,10 +1,12 @@
 # Auto-Debias
 
 ## requirments
+    - numpy
+    - torch
+    - transformers 
 
 ## related files
-    - model
-    - data
+    - model [here](https://drive.google.com/drive/folders/1MjmUXxfoGhOVGxpRSwsU9Pt1EYF4uaIL?usp=sharing)  
 
 ## generated biased prompt via beam search
 
@@ -25,3 +27,8 @@ python auto-debias.py
 ```
 
 ## evaluation
+ ### SEAT
+ We run the [SEAT](https://github.com/pliang279/sent_debias) using the code from Liang et al.
+ 
+ ### GLUE
+ We run [GLUE](https://github.com/huggingface/transformers/tree/main/examples/pytorch/text-classification) from transformers.

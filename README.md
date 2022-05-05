@@ -6,7 +6,7 @@
     - transformers 
 
 ## related files
-    - model [here](https://drive.google.com/drive/folders/1MjmUXxfoGhOVGxpRSwsU9Pt1EYF4uaIL?usp=sharing)  
+We release the debiased model [here](https://drive.google.com/drive/folders/1MjmUXxfoGhOVGxpRSwsU9Pt1EYF4uaIL?usp=sharing).  
 
 ## generated biased prompt via beam search
 

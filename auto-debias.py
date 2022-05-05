@@ -59,7 +59,7 @@ parser.add_argument(
 
 parser.add_argument(
     "--lr",
-    default=1e-5,
+    default=5e-6,
     type=float,
     help="learning rate in auto-debias fine-tuning",
 )
